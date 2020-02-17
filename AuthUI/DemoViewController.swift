@@ -1,6 +1,6 @@
 //
-//  ViewController.swift
-//  AuthUIExample
+//  DemoViewController.swift
+//  AuthUI
 //
 //  Created by admin on 2/17/20.
 //  Copyright © 2020 Fleet. All rights reserved.
@@ -8,13 +8,11 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class DemoViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+
+        self.view.backgroundColor = .red
     }
-
-
 }
-
